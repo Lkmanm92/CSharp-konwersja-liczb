@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label6.Text" xml:space="preserve">
+    <value>W przypadku systemu rzymskiego największą możliwą liczbą do zapisania jest 3999 czyli
+MMMCMXCIX, dlatego niemożliwa jest zamiana liczby z systemu np. dziesiętnego o wartości większej
+niż 3999, w takim przypadku zostaniesz poinformowany ,że wrowadziłeś niepoprawną liczbę. Liczba zero
+także nie może być przedstawiona w systemie rzymskim.
+Systemy od 2-20 umożliwiają wprowadzanie cyfr i liter litera A odpowiada liczbie 10, B liczbie 11, C liczbie 12 i.t.d
+Jednak jeśli używamy systemu np. 2 to najwiekszą cyfrą jaką możemy użyć jest 1 czyli możemy użyć
+zer i jedynek do zapisania liczby. Dla systemu trójkowego możemy użyć cyfr 0,1,2 dla czwókowego 0,1,2,3 i.t.d. 
+Więc możliwe cyfry lub litery jakie wpisujemy odpowiadacją wzorowi : Podstawa-1. Dla systemu 14 możemy 
+użyć 1,2,3,4,5,6,7,8,9, A,B,C,D.</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>1. Wybierz system liczbowy z którego zamierzasz zamienić liczbę - pole "Zamiana z systemu".
+        możesz do tego celu użyć listy rozwijanej bądź po prostu wpisać podstawę systemu z którego 
+        będziesz zamieniał liczbę.
+2. Zaznacz pola na jaki system chcesz zamienić liczbę, możesz zaznaczyć więcej niż jedną opcję 
+         ( pole "Zamiana na system liczbowy" ). Jeśli chcesz zaznaczyć wszystkie dostępne systemy 
+         wystarczy zaznaczyć przycisk - "Zaznacz wszystko", jeśli odznaczymy przycisk odznaczą
+         się także wszystkie zaznaczone systemy.
+ 3. Wpisz liczbę do zamiany w polu "Liczba do zamiany". Automatycznie zostanie zamieniona w czasie
+        rzeczywistym (zamiana na bieżąco) liczba na podane przez Ciebie systemy. Jeśli wpiszesz nieprawidłową
+        liczbę otrzymasz komunikat w oknie wyniku.
+Jeśli zmieniłeś kolejność wykonywanych zadań (1,2,3) , to po każdej zmianie należy wcisnąć przycisk "Generuj"
+aby otrzymać wyniki w oknie wyniki.
+        </value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Dane w plikach tekstowych należy wproowadzać w ściśle określony sposób, dozwolone są
+cyfry, litery oraz przecinki i kropki a także dwukropki i średniki. Wzór wprowadzania danych to:
+PodstawaSystemuZKtóregoZamieniamy;Liczba;SystemyNaKtóreChcemyZamienić(po przecinkach).
+Przykładowo chcemy zamienić z systemu 7 liczbę 2455 i chcemy ją zamienić na system 2,3,4,5,6,8,20
+musimy wpisać:
+7:2455:2,3,4,5,6,8,20
+Kolejną zamiane umieszczamy w nowej linii czyli:
+7:2455:2,3,4,5,6,8,20
+8:7777:2,10,19
+Jesli chcesz zamienić z systemu rzymskiego lub na system rzymski możesz wpisać jako podstawę 1 lub
+slowo rzymskie/rzym/. Przecinki i kropki są wymiennę zatem możemy stosować albo przecinki albo 
+kropki lub mieszane. Podobnie jest ze średnikiem i dwukropkiem.</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Program oferuje dwie możliwości rozwiązania problemu zapisu i odczytu do pliku. Pierwszy z
+nich opiera się na odczytaniu danych z pliku i wygenerowaniu wyników do programu (podpunkt 
+"Wczytanie danych z pliku do programu), a następnie zapisanie wyników wygenerowanych do pliku
+(podpunkt "Zapisanie wyniku pracy programu do pliku"). W tym przypadku mamy możliwość 
+szybkiego podejżenia wyników konwersji. Drugim sposobem jest wykorzystanie przycisku "Z pliku do pliku".
+W tym przypadku wciskamy przycisk i wybieramy plik z danymi do przekonwertowania, następnie wyświetli
+nam się okno dialogowe ze ścieżką po czym znów wyświetli okno tym razem z możliwością wprowadzenia 
+nazwy pliku do którego mają być zapisane wyniki konwersji. 
+Jak wprowadzać dane do pliku aby były poprawnie odczytane dowiesz się z podpunktu 
+"Dane w plikach".
+</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Wczytanie danych z pliku odbywa się poprzez naciśnięcie przycisku "Z pliku do programu",
+następnie wyświetli nam się okno dialogowe z wyborem pliku. Dozwolonymi plikami są pliki 
+tekstowe. Po wybraniu pliku wyświetli nam się okno o potwierdzeniu ścieżki do otwarcia pliku
+i zostanie automatycznie wygenerowany wynik zamiany liczb z systemów liczbowych. 
+Jak wprowadzać dane do pliku aby były poprawnie odczytane dowiesz się z podpunktu 
+"Dane w plikach".
+</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Wynik pracy możemy zapisać do pliku po uprzednim wygenerowaniu dowolnych obliczeń,
+oczywiście możemy zapisać do pliku puste okno jednak wygenerowany zostanie pusty plik.
+W celu zapisania wyników z okna wyniki do pliku musimy wcisnąć przycisk "Zapisz wynik",
+zostanie wygenerowane okno zapisu pliku. W nazwie pliku należy podać również rozszerzenie 
+dla zwykłego pliku tekstowego rozszerzenie to *txt , czyli plik powinien się nazywać nazwa.txt
+gdzie w miejsce nazwy dodajemy własny tekst. Możemy również wybrać miejsce docelowe 
+zapisywanego pliku np. na pulpicie na dysku C://. Po wpisaniu nazwy i wybraniu miejsca 
+docelowego klikamy "Save", wyświetli nam się okno dialogowe o zapisanym pliku.
+</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Program 'Konwersja' umożliwia pracę z plikami. Możliwe jest zapisanie pracy programu do pliku np. tekstowego,
+wczytanie z pliku danych i obliczenie wartości w programie a także odczytanie danych z pliku i jednoczesne 
+wygenerowanie wyników do pliku. Wczytywanie danych z pliku pozwala na przetwarzanie wielu konwersji w krótkim
+czasie. 
+ </value>
+  </data>
+</root>
